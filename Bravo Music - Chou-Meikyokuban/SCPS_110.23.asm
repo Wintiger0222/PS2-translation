@@ -356,77 +356,77 @@
 ; seek 0x000CA1AC
 ; .string"data/sound/music/mroom/2001_2.sq"
 
-seek 0x000CA220
-.string"交響曲　第５番「運命」　第１楽章"
+seek 0x000CA220;交響曲　第５番「運命」　第１楽章
+.string"교향곡 제5번「운명」 제1악장"
 
 seek 0x000CA260
-.string"ベートーヴェン"
+.string"베토벤"
 
-seek 0x000CA2C0
-.string"ユモレスク"
+seek 0x000CA2C0;ユモレスク
+.string"유머레스크"
 
-seek 0x000CA300
-.string"ドヴォルザーク"
+seek 0x000CA300;ドヴォルザーク
+.string"드보르작"
 
-seek 0x000CA360
-.string"Ｇ線上のアリア"
+seek 0x000CA360;Ｇ線上のアリア
+.string"G선상의 아리아"
 
-seek 0x000CA3A0
-.string"Ｊ．Ｓ．バッハ"
+seek 0x000CA3A0;Ｊ．Ｓ．バッハ
+.string"J. S. 바흐"
 
-seek 0x000CA400
-.string"協奏曲集「四季」より「春」　第１楽章"
+seek 0x000CA400;協奏曲集「四季」より「春」　第１楽章
+.string"협주곡집「사계」중「봄」 제1악장"
 
-seek 0x000CA440
-.string"ヴィヴァルディ"
+seek 0x000CA440;ヴィヴァルディ
+.string"비발디"
 
-seek 0x000CA4A0
-.string"バレエ音楽「くるみ割り人形」より「花のワルツ」"
+seek 0x000CA4A0;バレエ音楽「くるみ割り人形」より「花のワルツ」
+.string"발레음악「호두까기 인형」중「꽃의 왈츠」"
 
-seek 0x000CA4E0
-.string"チャイコフスキー"
+seek 0x000CA4E0;チャイコフスキー
+.string"차이코프스키"
 
-seek 0x000CA540
-.string"ワシントン・ポスト"
+seek 0x000CA540;ワシントン・ポスト
+.string"워싱턴 포스트"
 
-seek 0x000CA580
-.string"スーザ"
+seek 0x000CA580;スーザ
+.string"수자"
 
-seek 0x000CA5E0
-.string"連作交響詩「我が祖国」より「モルダウ」"
+seek 0x000CA5E0;連作交響詩「我が祖国」より「モルダウ」
+.string"연작교향시「나의 조국」중「몰다우」"
 
-seek 0x000CA620
-.string"スメタナ"
+seek 0x000CA620;スメタナ
+.string"스메타나"
 
-seek 0x000CA680
-.string"カヴァレリア・ルスティカーナ～間奏曲"
+seek 0x000CA680;カヴァレリア・ルスティカーナ～間奏曲
+.string"카발레리아 루스티카나～문춘곡"
 
-seek 0x000CA6C0
-.string"マスカーニ"
+seek 0x000CA6C0;マスカーニ
+.string"마스카니"
 
-seek 0x000CA720
-.string"交響曲　第９番「新世界より」　第４楽章"
+seek 0x000CA720;交響曲　第９番「新世界より」　第４楽章
+.string"교향곡 제9번「신세계에서」 제4악장"
 
-seek 0x000CA760
-.string"ドヴォルザーク"
+seek 0x000CA760;ドヴォルザーク
+.string"드보르작"
 
 seek 0x000CA7C0
 .string"楽劇「ワルキューレ」より「ワルキューレの騎行」"
 
-seek 0x000CA800
-.string"ワーグナー"
+seek 0x000CA800;ワーグナー
+.string"바그너"
 
 seek 0x000CA860
 .string"美しく青きドナウ"
 
-seek 0x000CA8A0
-.string"ヨハン・シュトラウス２世"
+seek 0x000CA8A0;ヨハン・シュトラウス２世
+.string"요한 슈트라우스 2세"
 
 seek 0x000CA900
 .string"ツァラトゥストラはかく語りき"
 
-seek 0x000CA940
-.string"リヒャルト・シュトラウス"
+seek 0x000CA940;リヒャルト・シュトラウス
+.string"리하르트 슈트라우스"
 
 seek 0x000CA9A0
 .string"交響曲　第５番「運命」　第１楽章"
