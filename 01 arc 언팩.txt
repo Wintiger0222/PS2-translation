@@ -1,0 +1,32 @@
+#DATA_LE1.ARC 언팩 written by 프기니
+#http://aluigi.altervista.org/quickbms.htm
+
+get UNK long
+xmath files "UNK - 0x9E0D"
+
+goto 0x800
+
+for i = 0 < files
+
+get name string
+strlen namesz name
+savepos tmp
+
+xmath tmp2 "tmp - namesz + 0x3F"
+goto tmp2
+
+get UNK2 long
+get SIZE long
+get OFFSET long
+get UNK3 long
+
+if SIZE = 0
+else
+
+get packname filename
+   string packname += _unpacked/
+   string packname += name
+   log packname OFFSET SIZE
+endif
+
+next i

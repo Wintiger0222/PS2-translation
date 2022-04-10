@@ -1,0 +1,38 @@
+#*.pak, *.pak2 언팩 written by 프기니
+#http://aluigi.altervista.org/quickbms.htm
+
+endian little
+
+getdstring ID 0x8
+get null long
+get files long
+
+for i = 0 < files
+
+savepos tmp
+get OFFSET long
+get SIZE long
+get name string
+xmath tmp "tmp + 0x30"
+goto tmp
+
+if ID = TIM2PACK
+
+get packname filename
+   string packname += _unpacked/
+   string packname += name
+   string packname += ".tm2"
+
+log packname OFFSET SIZE
+
+else
+
+get packname filename
+   string packname += _unpacked/
+   string packname += name
+
+log packname OFFSET SIZE
+
+endif
+
+next i
